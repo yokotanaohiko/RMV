@@ -2,46 +2,46 @@
 # 
 
 # Package name (required)
-PackageName=funkyPackage
+PackageName=vpdrsa
 
 # Version (required)
-Version=x.y.z
+Version=1.0.0
 
 #Date (year-month-day)
-Date=2010-01-01
+Date=2013-11-29
 
 # Title (required)
-Title=My cool algorithm
+Title=Case-based reasoning using dominance-based rough membership values
 
 # Category (recommended)
-Category=one or two word category - try to use categories already in use (some examples: Classification, Text classification, Ensemble learning, Regression, Clustering, Associations, Preprocessing, Visualization, Explorer, Experimenter, KnowledgeFlow, etc.)
+Category=Classification
 
 # Author (required)
-Author=Joe Dev <joe@somewhere.net>,Dev2 <dev2@somewhereelse.net>,...
+Author=Naohiko Yokota<sphin.x.nao@gmail.com>
 
 # Maintainer (required)
-Maintainer=Joe Dev <joe@somewhere.net>
+Maintainer=Naohiko Yokota<sphin.x.nao@gmail.com>
 
 # License (required)
-License=GPL 2.0|Mozilla
+License=GPL
 
 # Description (required)
-Description=A one paragraph description of the package.
+Description=case-based reasoning based on dominance-based rough set approach
 
 # Package URL for obtaining the package archive (required)
-PackageURL=http://somewhere.net/weka/funkyPackage.zip?download
+PackageURL=https://github.com/yokotanaohiko/RMV
 
 # URL for further information
-URL=http://somewhere.net/funkyResearchInfo.html
+URL=https://github.com/yokotanaohiko/RMV
 
 # Enhances various other packages ?
-Enhances=packageName1,packageName2,...
+Enhances=weka.classifiers.AbstractClassifier
 
 # Related to other packages?
-Related=packageName1,packageName2,...
+Related=weka.core.*;
 
 # Dependencies (format: packageName (equality/inequality version_number)
-Depends=weka (>=3.7.1),packageName1 (=x.y.z), packageName2 (>u.v.w|<=x.y.z),...
+Depends=weka (>=3.7.1)
 
 # Message to display in installation. Can be used to provide
 # special instructions (e.g. manual stuff needed to complete
